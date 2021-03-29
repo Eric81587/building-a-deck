@@ -1,0 +1,37 @@
+#heart, #spades, #clubs, #diamonds {
+  display: none;
+}
+
+.container {
+  padding: 30px;
+}
+
+.input-group {
+  margin-bottom: 25px;
+
+}
+
+.input-group-text {
+  padding: 12px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+}
+
+.red, .black {
+  padding: 15px;
+  color: #fff;
+}
+
+.red {
+  background-color: rgb(208, 16, 16);
+}
+
+.black {
+  background-color: #323232;
+}

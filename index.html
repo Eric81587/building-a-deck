@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Loop To Create Deck Of Cards</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-offset-3 col-md-6">
+          <form>
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-lg">Selected Suit:</span>
+              </div>
+              <input type="text"  id="suit" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="output col-12">
+        <hr>
+        <h1>Deck of Cards by Suit</h1>
+        <div class="col-md-3 red" id="hearts">
+          <h2>Hearts</h2>
+          <ol>
+          </ol>
+        </div>
+        <div class="col-md-3 black" id="spades">
+          <h2>Spades</h2>
+          <ol>
+          </ol>
+        </div>
+        <div class="col-md-3 red" id="diamonds">
+          <h2>Diamonds</h2>
+          <ol>
+          </ol>
+        </div>
+        <div class="col-md-3 black" id="clubs">
+          <h2>Clubs</h2>
+          <ol>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
