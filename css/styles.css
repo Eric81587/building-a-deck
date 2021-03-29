@@ -1,5 +1,5 @@
-#heart, #spades, #clubs, #diamonds {
-  display: none;
+#hearts, #spades, #clubs, #diamonds {
+
 }
 
 .container {
@@ -19,9 +19,9 @@ h1, h2 {
   text-align: center;
 }
 
-h2 {
+ h2 {
   color: #fff;
-}
+} 
 
 .red, .black {
   padding: 15px;
